@@ -8,12 +8,12 @@
 */
 void swap(int *a, int *b)
 {
-	int temp1, temp2;
+	int first_temp, second_temp;
 
-	temp1 = *a;
-	temp2 = *b;
-	*a = temp2;
-	*b = temp1;
+	first_temp = *a;
+	second_temp = *b;
+	*a = second_temp;
+	*b = first_temp;
 }
 /**
  * bubble_sort - sorts an array
